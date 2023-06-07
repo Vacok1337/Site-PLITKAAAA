@@ -1,0 +1,40 @@
+User-agent: *
+Disallow: /_cpanel
+Disallow: /captcha
+Disallow: /config
+Disallow: /payment
+Disallow: /Smarty
+Disallow: /design
+Disallow: /api
+Disallow: /api.php
+Disallow: /cgi-bin
+Disallow: /compiled
+Disallow: /resize
+Disallow: /order
+Disallow: /user
+Disallow: /cart
+Disallow: /privacy
+Disallow: /favourites
+Disallow: /password.php
+
+Disallow: *?sort=price*
+Disallow: *?sort=name*
+Disallow: *?sort=position*
+Disallow: *?page=*
+Disallow: *?type=*
+Disallow: *?brand=*
+Disallow: *?brands=*
+
+
+Disallow: *?prices=*
+Disallow: *?strana=*
+Disallow: *?risunok=*
+Disallow: *?primenenie=*
+Disallow: *?cvet=*
+Disallow: *?poverhnosty=*
+Disallow: *?risunok=*
+
+
+Clean-param: type&page&brand&brands
+
+Sitemap: https://geometrica-plitka.ru/sitemap.xml
